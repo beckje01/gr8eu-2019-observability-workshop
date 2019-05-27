@@ -56,8 +56,8 @@ public class RootController {
 
 	@Get("/reports/hubCount")
 	public String hubCount() {
-		def userCount = userClient.getUsers().size();
-		def hubCount = hubClient.getHubs().size();
+		int userCount = userClient.getUsers().size();
+		int hubCount = hubClient.getHubs().size();
 		return "{\"hubs\":{\"" + hubCount + "\":\"users\":\"" + userCount + "}";
 	}
 

@@ -5,12 +5,15 @@ ifndef::sourcedir[:sourcedir: ../java]
 :navigation:
 :menu:
 :status:
-:title-slide-background-image: devoxx-splash.png
+:title-slide-background-image: gr8eu-logo-2019.svg
+:title-slide-background-size: auto 75%
+:title-slide-background-position: center top
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
 :icons: font
 
 = : Observability Lab
+https://twitter.com/beckje01[@beckje01]
 
 [.notes]
 --
