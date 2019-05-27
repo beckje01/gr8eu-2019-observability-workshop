@@ -1,0 +1,50 @@
+
+== How this Workshop is Setup
+
+Labs are in a state where they will compile but not all are 100% correct. The answers are in the corresponding modules.
+
+=== System Overview
+
+[plantuml%interactive, plant-images/diagramoverdev, svg, height=350, width=400]
+----
+@startuml
+  rectangle edge as "Edge"
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+	database hubdb as "Hub\nDatabase"
+	database userdb as "User\nDatabase"
+
+  user -down-> userdb
+  hub -down-> hubdb
+
+  edge -down-> report
+  edge -down-> hub
+	edge -down-> user
+
+	report -> hub
+@enduml
+----
+
+=== Infra
+
+All the shared infrastructure for observability is in this directory you can run it with docker-compose.
+
+=== Requests
+
+A handful of simple requests that can exercise the system easily are in this directory. Each service has a file.
+
+=== Services
+
+Each service is named for its role then a dash with it's framework. You only need to run one of each role.
+
+
+=== Task List
+
+There is a high level task list in each lab directory, that has a rough order on the things to explore. It also has general pointers of where to get started.
+
+=== Wrap Up
+
+We will do a wrap up discussion after each lab talking about more complex real world applications of the topics.
+
+

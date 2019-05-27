@@ -1,0 +1,18 @@
+== Lab 00 - Setup
+
+=== Commands
+
+From infra dir:
+```bash
+docker-compose up
+```
+
+From each project directory
+```
+./gradlew run
+```
+
+=== Tools
+
+* `requests` directory -- Has calls to operate the system
+* `links.html` -- Has the links to our infrastructure

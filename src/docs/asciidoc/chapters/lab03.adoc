@@ -1,0 +1,13 @@
+== Lab 03 -- Metrics
+
+=== Lab 03 - Tasks
+
+. Expose Metrics for Prometheus
+. Scrape All the Metrics
+. Custom Metrics
+
+=== Lab 03 -- Discussion
+
+* What metrics do you collect today?
+* How do metrics lie to you?
+* How do your metrics tie to users?

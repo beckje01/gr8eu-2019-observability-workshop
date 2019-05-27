@@ -1,0 +1,13 @@
+== Lab 04 -- Observability Bugs
+
+=== Lab 04 -- Tasks
+
+. Odd Behaviors
+
+=== Lab 04 -- Error Stories
+
+* Traces with > 10k spans
+* Error rates thrown off by service reporting the wrong name.
+* Lost traces
+* Broken Traces
+* Fixed correlation IDs

@@ -1,0 +1,42 @@
+== Lab 02 -- Tracing
+
+Same apps just add tracing.
+
+== Tracing Terminology
+
+
+=== What is Distributed Tracing
+
+Distributed tracing systems collect end-to-end latency graphs
+(traces) in near real-time.
+
+* https://zipkin.io/[Zipkin]
+* https://github.com/jaegertracing/jaeger[Jaeger]
+* https://research.google.com/pubs/pub36356.html[Dapper]
+
+=== Terminology Lesson
+
+* **Span** - An operation that took place.
+* **Event** - Something that occurs in a span.
+* **Tag** - Key value pair on a span.
+
+=== Terminology Lesson
+
+* **Trace** - End-to-end latency graph, made up of spans.
+* **Tracer** - Library that records spans and passes context
+* **Instrumentation** - Use of a tracer to record tasks.
+* **Sample %** - How often to record a trace.
+
+=== Lab 02 - Tasks
+
+. Zipkin Support For Services
+. DataStore Tracing
+. Debug Issues
+. Debug Slow Transactions
+
+=== Lab 02 -- Wrap Up
+
+* Customization is Key
+* Service Mesh
+* When to use annotations?
+* When to use tags?

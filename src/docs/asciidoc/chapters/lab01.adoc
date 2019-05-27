@@ -1,0 +1,28 @@
+== Lab 01 - Logging
+
+=== Commands
+
+From infra dir:
+```bash
+docker-compose up
+```
+
+From each project directory
+```
+./gradlew run
+```
+
+=== Lab 01 - Tasks
+
+. Get Logs to One Place
+. Dynamic Log Filtering
+. Log Formatting
+. Correlation IDs
+
+*GOAL* All Logs Available in Kibania
+
+=== Lab 01 - Wrap Up
+
+* Correlation IDs are lightweight, good for small retrofit
+* Dynamic Logging is for cost savings
+* Formatting Matters

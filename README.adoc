@@ -1,4 +1,4 @@
-= Devoxx UK 2019 Observability Workshop
+= GR8Conf EU 2019 Observability Workshop
 
 A hands on playground for learning observability basics in a hands on fashion.
 
@@ -35,4 +35,3 @@ gradle run
 
 * links.html[Link Page for Local Services]
 * Each Lab has a TASKS.adoc file
-* https://github.com/beckje01/devoxx-uk-2019-observability-workshop/blob/master/lab.pdf[Presentation PDF]
