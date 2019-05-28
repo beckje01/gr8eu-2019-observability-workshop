@@ -27,7 +27,7 @@ Distributed tracing systems collect end-to-end latency graphs
 * **Instrumentation** - Use of a tracer to record tasks.
 * **Sample %** - How often to record a trace.
 
-=== Lab 02 - Tasks
+== Lab 02 - Tasks
 
 . Zipkin Support For Services
 . DataStore Tracing

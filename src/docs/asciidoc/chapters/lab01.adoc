@@ -1,15 +1,59 @@
 == Lab 01 - Logging
 
-=== Commands
+Expanding past a few μ-services and you quickly need a centralized logging solution.
 
-From infra dir:
-```bash
-docker-compose up
-```
+== ELK Intro
+
+We are using the ELK stack in the workshop as it's open source and has good docker setup. But there are many great solutions use what's best for you.
+
+=== ELK Intro
+
+* **E**lasticsearch -- The Datastore
+* **L**ogstash -- Transformative Data Pipeline
+* **K**ibana -- Front End
+
+=== ELK in Use
+
+[plantuml%interactive, plant-images/img, svg, height=400, width=400]
+----
+@startuml
+	database e as "Elasticsearch" #lightblue
+	rectangle l as "Logstash" #lightblue
+	rectangle k as "Kibania" #lightblue
+
+	rectangle edge as "Edge"
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+	actor dev as "Developer" #lightgreen
+
+
+	dev -right-> k: Search Logs
+
+	k -down-> e
+	l -> e
+
+	edge -up-> l
+	hub -up-> l: Push Logs
+	user -up-> l
+	report -up-> l
+
+
+@enduml
+----
+
+=== Further Reading
+
+* https://www.elastic.co/elk-stack[ELK Stack from Elastic]
+
+
+
+== Commands
 
 From each project directory
 ```
-./gradlew run
+gradle run
 ```
 
 === Lab 01 - Tasks

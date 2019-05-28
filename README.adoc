@@ -2,6 +2,12 @@
 
 A hands on playground for learning observability basics in a hands on fashion.
 
+== Thank You
+
+* https://github.com/dmg46664[Daniel Gerson] -- Detailed notes on how to improve the labs
+* https://twitter.com/adrianfcole[Adrian Cole] -- Tons of shared knowledge
+* Attendees at Greach and Devoxx UK -- Tons of feedback
+* https://zipkin.apache.org/[Apache Zipkin] -- Tons of inspiration from the docker compose
 
 == Prework
 
@@ -12,13 +18,6 @@ Any questions or things not working reach out on twitter to https://twitter.com/
 [source,bash]
 ----
 {project}/infra/$ docker-compose up
-----
-
-== FIX for Log Index
-
-[source,bash]
-----
-curl -XPOST -D- 'http://127.0.0.1:5601/api/saved_objects/index-pattern' -H 'Content-Type: application/json' -H 'kbn-version: 6.6.1' -d '{"attributes":{"title":"logstash-*","timeFieldName":"@timestamp"}}'
 ----
 
 == Notes
@@ -33,5 +32,6 @@ gradle run
 
 == Links
 
-* links.html[Link Page for Local Services]
+* link:links.html[Link Page for Local Services]
 * Each Lab has a TASKS.adoc file
+* link:http://beckje01.com/gr8eu-2019-observability-workshop/[Slides]

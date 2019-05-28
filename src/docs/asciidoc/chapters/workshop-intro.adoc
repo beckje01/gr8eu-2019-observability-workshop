@@ -1,3 +1,9 @@
+== Thank You
+
+* https://github.com/dmg46664[Daniel Gerson] -- Detailed notes on how to improve the labs
+* https://twitter.com/adrianfcole[Adrian Cole] -- Tons of shared knowledge
+* Attendees at Greach and Devoxx UK -- Tons of feedback
+* https://zipkin.apache.org/[Apache Zipkin] -- Tons of inspiration from the docker compose
 
 == How this Workshop is Setup
 
@@ -42,6 +48,12 @@ Each service is named for its role then a dash with it's framework. You only nee
 === Task List
 
 There is a high level task list in each lab directory, that has a rough order on the things to explore. It also has general pointers of where to get started.
+
+=== Gradle Build
+
+The root gradle file isn't something you need to modify if you need to add dependencies you can do that in the gradle file for a given project in each lab.
+
+Any libraries needed to solve the lab should be added to the project gradle file.
 
 === Wrap Up
 
