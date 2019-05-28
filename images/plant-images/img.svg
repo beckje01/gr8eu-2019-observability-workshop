@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="321px" preserveAspectRatio="none" style="width:365px;height:321px;" version="1.1" viewBox="0 0 365 321" width="365px" zoomAndPan="magnify"><defs><filter height="300%" id="f1c4jzynkestb3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity e--><path d="M242.5,162 C242.5,152 298,152 298,152 C298,152 353.5,152 353.5,162 L353.5,187.2969 C353.5,197.2969 298,197.2969 298,197.2969 C298,197.2969 242.5,197.2969 242.5,187.2969 L242.5,162 " fill="#ADD8E6" filter="url(#f1c4jzynkestb3)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M242.5,162 C242.5,172 298,172 298,172 C298,172 353.5,172 353.5,162 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="252.5" y="188.9951">Elasticsearch</text><!--entity l--><rect fill="#ADD8E6" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="83" x="124.5" y="156.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="134.5" y="179.4951">Logstash</text><!--entity k--><rect fill="#ADD8E6" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="69" x="263.5" y="31.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="273.5" y="54.4951">Kibania</text><!--entity edge--><rect fill="#FEFECE" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="56" x="6" y="274"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="16" y="296.9951">Edge</text><!--entity hub--><rect fill="#FEFECE" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="48" x="97" y="274"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="107" y="296.9951">Hub</text><!--entity user--><rect fill="#FEFECE" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="52" x="185" y="274"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="195" y="296.9951">User</text><!--entity report--><rect fill="#FEFECE" filter="url(#f1c4jzynkestb3)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="67" x="272.5" y="274"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="282.5" y="296.9951">Report</text><!--entity dev--><ellipse cx="112" cy="18" fill="#90EE90" filter="url(#f1c4jzynkestb3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M112,26 L112,53 M99,34 L125,34 M112,53 L99,68 M112,53 L125,68 " fill="none" filter="url(#f1c4jzynkestb3)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="76.5" y="87.9951">Developer</text><!--link dev to k--><path d="M147.8627,49.5 C179.4271,49.5 225.3286,49.5 258.0568,49.5 " fill="none" id="dev-k" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="263.1921,49.5,254.1921,45.5,258.1921,49.5,254.1921,53.5,263.1921,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="166" y="42.5669">Search Logs</text><!--link k to e--><path d="M298,67.6761 C298,88.3239 298,122.2691 298,146.3482 " fill="none" id="k-e" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="298,151.6322,302,142.6322,298,146.6322,294,142.6322,298,151.6322" style="stroke: #A80036; stroke-width: 1.0;"/><!--link l to e--><path d="M207.5078,174.5 C217.341,174.5 227.1741,174.5 237.0072,174.5 " fill="none" id="l-e" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="242.1494,174.5,233.1494,170.5,237.1494,174.5,233.1494,178.5,242.1494,174.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--link l to edge--><path d="M141.7709,196.0675 C116.7581,218.3328 78.156,252.6945 54.5763,273.684 " fill="none" id="l-edge" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="145.6643,192.6019,136.2823,195.5981,141.9296,195.9263,141.6014,201.5737,145.6643,192.6019" style="stroke: #A80036; stroke-width: 1.0;"/><!--link l to hub--><path d="M139.3885,196.2404 C130.8756,204.8265 122.4976,215.4154 118,227 C112.1534,242.0592 113.7747,260.5762 116.345,273.9891 " fill="none" id="l-hub" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="143.0342,192.6862,133.7976,196.1044,139.454,196.1764,139.382,201.8328,143.0342,192.6862" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="119" y="240.0669">Push Logs</text><!--link l to user--><path d="M176.5577,197.426 C180.6263,206.5549 185.2039,217.2022 189,227 C195.0687,242.6636 201.1263,260.7911 205.344,273.9168 " fill="none" id="l-user" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="174.4833,192.803,174.5185,202.6518,176.5303,197.3648,181.8174,199.3766,174.4833,192.803" style="stroke: #A80036; stroke-width: 1.0;"/><!--link l to report--><path d="M191.6975,196.0675 C218.2263,218.3328 259.1679,252.6945 284.1766,273.684 " fill="none" id="l-report" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="187.5682,192.6019,191.8904,201.4517,191.398,195.8163,197.0334,195.324,187.5682,192.6019" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+	database e as "Elasticsearch" #lightblue
+	rectangle l as "Logstash" #lightblue
+	rectangle k as "Kibania" #lightblue
+
+	rectangle edge as "Edge"
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+	actor dev as "Developer" #lightgreen
+
+
+	dev -right-> k: Search Logs
+
+	k -down-> e
+	l -> e
+
+	edge -up-> l
+	hub -up-> l: Push Logs
+	user -up-> l
+	report -up-> l
+
+
+@enduml
+
+PlantUML version 1.2018.13(Mon Nov 26 11:11:51 CST 2018)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_202-b05
+Operating System: Linux
+OS Version: 4.20.17-1-MANJARO
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
