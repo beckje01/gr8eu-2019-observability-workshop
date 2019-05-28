@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:380px;height:337px;" version="1.1" viewBox="0 0 380 337" width="380px" zoomAndPan="magnify"><defs><filter height="300%" id="f143838c1v8r30" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity p--><path d="M128.5,178 C128.5,168 181,168 181,168 C181,168 233.5,168 233.5,178 L233.5,203.2969 C233.5,213.2969 181,213.2969 181,213.2969 C181,213.2969 128.5,213.2969 128.5,203.2969 L128.5,178 " fill="#ADD8E6" filter="url(#f143838c1v8r30)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M128.5,178 C128.5,188 181,188 181,188 C181,188 233.5,188 233.5,178 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="138.5" y="204.9951">Prometheus</text><!--entity g--><rect fill="#ADD8E6" filter="url(#f143838c1v8r30)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="73" x="243.5" y="31.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="253.5" y="54.4951">Grafana</text><!--entity edge--><rect fill="#FEFECE" filter="url(#f143838c1v8r30)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="56" x="6" y="290"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="16" y="312.9951">Edge</text><!--entity hub--><rect fill="#FEFECE" filter="url(#f143838c1v8r30)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="48" x="97" y="290"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="107" y="312.9951">Hub</text><!--entity user--><rect fill="#FEFECE" filter="url(#f143838c1v8r30)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="52" x="215" y="290"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="225" y="312.9951">User</text><!--entity report--><rect fill="#FEFECE" filter="url(#f143838c1v8r30)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="67" x="302.5" y="290"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="312.5" y="312.9951">Report</text><!--entity dev--><ellipse cx="82" cy="18" fill="#90EE90" filter="url(#f143838c1v8r30)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M82,26 L82,53 M69,34 L95,34 M82,53 L69,68 M82,53 L95,68 " fill="none" filter="url(#f143838c1v8r30)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="46.5" y="87.9951">Developer</text><!--link g to p--><path d="M273.7788,67.5607 C266.8173,86.2684 254.3381,115.8157 238,138 C231.1438,147.3095 222.4674,156.285 213.9655,164.1016 " fill="none" id="g-p" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="209.8146,167.8421,219.1782,164.7888,213.529,164.495,213.8228,158.8458,209.8146,167.8421" style="stroke: #A80036; stroke-width: 1.0;"/><!--link dev to g--><path d="M117.8563,49.5 C151.7398,49.5 202.5601,49.5 238.2526,49.5 " fill="none" id="dev-g" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="243.4052,49.5,234.4052,45.5,238.4052,49.5,234.4052,53.5,243.4052,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="136" y="42.5669">Graph Metrics</text><!--link dev to p--><path d="M106.286,91.2691 C115.4615,106.3054 126.2831,123.2023 137,138 C143.2943,146.6911 150.618,155.778 157.4634,163.9019 " fill="none" id="dev-p" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="160.7789,167.8067,158.003,158.3571,157.5427,163.9952,151.9046,163.535,160.7789,167.8067" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="138" y="134.0669">Search Metrics</text><!--link p to edge--><path d="M146.752,213.1554 C133.7326,222.1071 118.9303,232.7024 106,243 C88.7812,256.7129 70.3753,273.3681 56.4836,286.386 " fill="none" id="p-edge" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="52.6899,289.9558,61.9855,286.7014,56.3313,286.5294,56.5033,280.8752,52.6899,289.9558" style="stroke: #A80036; stroke-width: 1.0;"/><!--link p to hub--><path d="M143.0709,213.1926 C133.0445,221.2418 123.4954,231.2671 118,243 C111.951,255.9148 112.5975,271.8989 114.8069,284.7846 " fill="none" id="p-hub" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="115.7574,289.7378,117.9893,280.1452,114.815,284.8274,110.1327,281.653,115.7574,289.7378" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="119" y="256.0669">Scrape Metrics</text><!--link p to user--><path d="M199.6053,213.0487 C206.3556,221.9872 213.6334,232.6015 219,243 C225.8494,256.2715 231.2661,272.1318 235.0108,284.863 " fill="none" id="p-user" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="236.4132,289.7542,237.7778,280.0003,235.0352,284.9478,230.0877,282.2052,236.4132,289.7542" style="stroke: #A80036; stroke-width: 1.0;"/><!--link p to report--><path d="M210.8856,213.1552 C238.7758,234.2978 280.0984,265.623 307.5243,286.4136 " fill="none" id="p-report" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="311.8025,289.6568,307.0468,281.0322,307.818,286.6363,302.2139,287.4075,311.8025,289.6568" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+	database p as "Prometheus" #lightblue
+	rectangle g as "Grafana" #lightblue
+
+	rectangle edge as "Edge"
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+
+	actor dev as "Developer" #lightgreen
+
+	g -down-> p
+
+	dev -right-> g: Graph Metrics
+	dev -right-> p: Search Metrics
+
+
+	p -down-> edge
+	p -down-> hub: Scrape Metrics
+	p -down-> user
+	p -down-> report
+
+@enduml
+
+PlantUML version 1.2018.13(Mon Nov 26 11:11:51 CST 2018)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_202-b05
+Operating System: Linux
+OS Version: 4.20.17-1-MANJARO
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

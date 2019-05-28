@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="404px" preserveAspectRatio="none" style="width:452px;height:404px;" version="1.1" viewBox="0 0 452 404" width="452px" zoomAndPan="magnify"><defs><filter height="300%" id="fk7irlransvpy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster edge--><rect fill="#FFFFFF" filter="url(#fk7irlransvpy)" height="247" style="stroke: #000000; stroke-width: 1.5;" width="104" x="337.5" y="146"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="370" y="160.9951">Edge</text><!--entity tracerEdge--><rect fill="#FEFECE" filter="url(#fk7irlransvpy)" height="52.5938" style="stroke: #000000; stroke-width: 1.5;" width="74" x="352.5" y="173"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="362.5" y="195.9951">Brave</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="362.5" y="212.292">(Tracer)</text><!--entity app--><rect fill="#FEFECE" filter="url(#fk7irlransvpy)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="87" x="346" y="349"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="356" y="371.9951">App Logic</text><!--entity e--><path d="M302,37 C302,27 357.5,27 357.5,27 C357.5,27 413,27 413,37 L413,62.2969 C413,72.2969 357.5,72.2969 357.5,72.2969 C357.5,72.2969 302,72.2969 302,62.2969 L302,37 " fill="#ADD8E6" filter="url(#fk7irlransvpy)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M302,37 C302,47 357.5,47 357.5,47 C357.5,47 413,47 413,37 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="312" y="63.9951">Elasticsearch</text><!--entity z--><rect fill="#ADD8E6" filter="url(#fk7irlransvpy)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="62" x="204.5" y="31.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="214.5" y="54.4951">Zipkin</text><!--entity hub--><rect fill="#FEFECE" filter="url(#fk7irlransvpy)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="48" x="79.5" y="181.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="89.5" y="204.4951">Hub</text><!--entity user--><rect fill="#FEFECE" filter="url(#fk7irlransvpy)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="52" x="162.5" y="181.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="172.5" y="204.4951">User</text><!--entity report--><rect fill="#FEFECE" filter="url(#fk7irlransvpy)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="67" x="250" y="181.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="260" y="204.4951">Report</text><!--entity dev--><ellipse cx="41.5" cy="18" fill="#90EE90" filter="url(#fk7irlransvpy)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M41.5,26 L41.5,53 M28.5,34 L54.5,34 M41.5,53 L28.5,68 M41.5,53 L54.5,68 " fill="none" filter="url(#fk7irlransvpy)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="6" y="87.9951">Developer</text><!--link tracerEdge to app--><path d="M389.5,231.4515 C389.5,266.2595 389.5,320.7231 389.5,348.8431 " fill="none" id="tracerEdge-app" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="389.5,226.0409,385.5,235.0409,389.5,231.0409,393.5,235.0409,389.5,226.0409" style="stroke: #A80036; stroke-width: 1.0;"/><!--link dev to z--><path d="M77.0826,49.5 C111.801,49.5 164.352,49.5 199.285,49.5 " fill="none" id="dev-z" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="204.307,49.5,195.307,45.5,199.307,49.5,195.307,53.5,204.307,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="95.25" y="42.5669">Search Traces</text><!--link z to e--><path d="M266.9531,49.5 C276.8926,49.5 286.8321,49.5 296.7716,49.5 " fill="none" id="z-e" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="301.9693,49.5,292.9693,45.5,296.9693,49.5,292.9693,53.5,301.9693,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--link z to tracerEdge--><path d="M257.6653,71.0895 C285.2111,97.9199 332.2162,143.7041 362.0234,172.7371 " fill="none" id="z-tracerEdge" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="254.076,67.5935,257.7323,76.7385,257.6578,71.0822,263.3142,71.0076,254.076,67.5935" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="326.5" y="134.0669">Sampled Traces</text><!--link z to hub--><path d="M213.4802,71.5433 C194.6214,90.7256 167.0235,119.5279 144.5,146 C134.7936,157.4081 124.5436,170.7831 116.7202,181.306 " fill="none" id="z-hub" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="217.1314,67.8387,207.9649,71.4408,213.6216,71.3998,213.6626,77.0565,217.1314,67.8387" style="stroke: #A80036; stroke-width: 1.0;"/><!--link z to user--><path d="M228.2749,72.5588 C218.9018,102.4731 202.7409,154.0502 194.1894,181.3423 " fill="none" id="z-user" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="229.8307,67.5935,223.3227,74.9858,228.3357,72.3648,230.9567,77.3778,229.8307,67.5935" style="stroke: #A80036; stroke-width: 1.0;"/><!--link z to report--><path d="M242.8788,72.5588 C252.4514,102.4731 268.9561,154.0502 277.6895,181.3423 " fill="none" id="z-report" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="241.2899,67.5935,240.2234,77.3844,242.8139,72.3556,247.8427,74.9461,241.2899,67.5935" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+	database e as "Elasticsearch" #lightblue
+	rectangle z as "Zipkin" #lightblue
+
+	rectangle edge as "Edge" {
+		rectangle tracerEdge as "Brave\n(Tracer)"
+		rectangle app as "App Logic"
+	}
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+	app -up-> tracerEdge
+
+	actor dev as "Developer" #lightgreen
+
+
+	dev -right-> z: Search Traces
+
+	z -right-> e
+
+	tracerEdge -up-> z : Sampled Traces
+	hub -up-> z
+	user -up-> z
+	report -up-> z
+
+@enduml
+
+PlantUML version 1.2018.13(Mon Nov 26 11:11:51 CST 2018)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_202-b05
+Operating System: Linux
+OS Version: 4.20.17-1-MANJARO
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
