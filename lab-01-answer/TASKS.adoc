@@ -4,6 +4,25 @@ With MicroServices it is a must to have a single place to go through logs for ev
 
 The work will be to setup logging targets of logstash for all the microservices.
 
+You need to do this now...
+
+Let's start with the first application edge-ratpack.
+
+```
+edge-ratpack> gradle run
+```
+
+Hint: Add the following to the `logback.xml` at the appropriate place.
+
+```
+		<appender-ref ref="stash"/>
+```
+
+Now relaunch the application, logs should start showing in Kibania.
+
+Next you need to get the other apps doing the same thing but less has been done from you in the other projects.
+
+
 == Dynamic Log Filtering
 
 Now that we have all the logs in one place, we quickly start having too many logs. Next know we want some debug level logging but not all of it. Using Turbo Filters in logback is a great place to start.  DynamicThresholdFilter will allow the most flexibility.
@@ -28,7 +47,7 @@ Add correlation IDs as requests enter and exit services, the common module provi
 By the end of this lab, you should have logs all going to Kibania, which indicate which app they are from as well as be dynamically leveled. To make it easy to see the correlation id header I suggest you add them to responses as well.
 
 
-== Extra Setup
+== Extra Setup GRAILS
 IF you are using `user-grails`
 
 http://localhost:8080/h2-console

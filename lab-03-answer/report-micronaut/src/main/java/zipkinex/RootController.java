@@ -55,9 +55,4 @@ public class RootController {
 		return "Hubs: " + hubClient.getHubs().size();
 	}
 
-	@Get("/admin/prometheus")
-	public String scrape() {
-		return prometheusMeterRegistry.scrape();
-	}
-
 }

@@ -7,8 +7,8 @@ dependencies {
 	runtime 'io.zipkin.reporter2:zipkin-reporter'
 	compile 'io.opentracing.brave:brave-opentracing'
 
-	implementation 'io.micronaut.configuration:micronaut-micrometer-core:1.1.0.RC2'
+	implementation 'io.micronaut.configuration:micronaut-micrometer-core:1.2.0.RC1'
 	compile "io.micronaut:micronaut-management"
-	compile 'io.micronaut.configuration:micronaut-micrometer-registry-prometheus:1.1.0.RC2'
+	compile 'io.micronaut.configuration:micronaut-micrometer-registry-prometheus:1.2.0.RC1'
 
 }

@@ -18,6 +18,10 @@ micronaut:
         step: PT1M
         descriptions: true
 
+#This is needed to expose prometheus without security
+endpoints:
+  prometheus:
+    sensitive: false
 ---
 tracing:
   zipkin:

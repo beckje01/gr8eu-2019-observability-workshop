@@ -18,6 +18,10 @@ micronaut:
         step: PT1M
         descriptions: true
 
+endpoints:
+  prometheus:
+    sensitive: false
+
 ---
 tracing:
   zipkin:

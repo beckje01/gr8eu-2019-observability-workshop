@@ -1,5 +1,40 @@
+== Metrics
+Metrics are the final key piece of observability. There are many new emerging ways of doing metrics, that are all great.
 
-== Docker
+Dropwizard metrics are old and somewhat less advanced at this point but they are well supported and have an output for prometheus which is setup for this workshop.
+
+Micrometer is already available in Micronaut and SpringBoot
+
+You will need to use to following to add metrics and have them flow into Grafana:
+
+* Ratpack - https://ratpack.io/manual/current/dropwizard-metrics.html#dropwizard_metrics[Metrics Setup] https://ratpack.io/manual/1.6.0/api/ratpack/dropwizard/metrics/DropwizardMetricsConfig.html#prometheusCollection-boolean-[Prometheus Settings]
+* Micronaut - https://micronaut-projects.github.io/micronaut-micrometer/1.2.0.RC1/guide/[Micrometer for Micronaut]
+* SpringBoot - https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html#production-ready-metrics-export-prometheus[Actuator with Micrometer]
+
+
+=== Prometheus Check
+
+http://localhost:9090/targets
+
+Should show your items as up, if you are getting about no such host see the extra section at the bottom to work around.
+
+All your targets should be in the state up.
+
+== Custom Metrics
+
+Add some new custom metrics to the apps that you can explore in http://localhost:3000[Grafana]
+
+Adding metrics can be done with the Metrics Registry directly or via annotations.
+
+
+
+== Extras
+
+=== Prometheus Error `no such host`
+
+If your docker can't access your host corretly.
+
+==== Get Docker IP
 
 You need to setup your IP so prometheus running in docker can see your local ports.
 
@@ -7,23 +42,12 @@ You need to setup your IP so prometheus running in docker can see your local por
 
 Look for docker0 then use that as the ip in the config.
 
+==== Edit Prometheus Config
 
-== Metrics
-Metrics are the final key piece of observability. There are many new emerging ways of doing metrics, that are all great.
-
-Dropwizard metrics are old and somewhat less advanced at this point but they are well supported and have an output for prometheus which is setup for this workshop.
-Micrometer is already available in micronaut, but we need a custom endpoint to make it available.
+Edit the prometheus configuration in the infra directory to scrap all the services. You should just need to change `host.docker.internal` to your IP from the above step.
 
 
-== Prometheus Config
-
-Edit the prometheus configuration in the infra directory to scrap all the services.
-
-== Custom Metrics
-
-Add some new custom metrics to the apps that you can explore in http://localhost:3000[Grafana]
-
-== Grails Extra Setup
+=== Grails Extra Setup
 
 http://localhost:8080/h2-console
 

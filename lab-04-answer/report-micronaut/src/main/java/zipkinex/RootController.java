@@ -61,9 +61,4 @@ public class RootController {
 		return "{\"hubs\":{\"" + hubCount + "\":\"users\":\"" + userCount + "}";
 	}
 
-	@Get("/admin/prometheus")
-	public String scrape() {
-		return prometheusMeterRegistry.scrape();
-	}
-
 }

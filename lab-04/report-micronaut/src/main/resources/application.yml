@@ -17,6 +17,9 @@ micronaut:
         enabled: true
         step: PT1M
         descriptions: true
+endpoints:
+  prometheus:
+    sensitive: false
 
 ---
 tracing:

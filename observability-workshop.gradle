@@ -19,6 +19,7 @@ buildscript {
 
 plugins {
 	id 'com.gradle.build-scan' version '2.3'
+	id 'com.github.ben-manes.versions' version '0.21.0'
 }
 
 allprojects {
@@ -36,8 +37,8 @@ apply plugin: "org.gradle.presentation.asciidoctor"
 
 
 presentation {
-    githubUserName.set("beckje01")
-    githubRepoName.set("gr8eu-2019-observability-workshop")
+	githubUserName.set("beckje01")
+	githubRepoName.set("gr8eu-2019-observability-workshop")
 
 	dependencies {
 		asciidoctor("org.asciidoctor:asciidoctorj-diagram:1.5.16")
@@ -112,7 +113,7 @@ configure(subprojects.findAll { it.name =~ ".*micronaut" }) {
 
 	dependencyManagement {
 		imports {
-			mavenBom 'io.micronaut:micronaut-bom:1.0.5'
+			mavenBom 'io.micronaut:micronaut-bom:1.1.2'
 		}
 	}
 
@@ -211,7 +212,7 @@ configure(subprojects.findAll { it.name =~ ".*grails" }) {
 		profile "org.grails.profiles:web"
 		profile "org.grails.profiles:rest-api"
 		runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.1"
-		runtime "com.h2database:h2:1.4.196"
+		runtime "com.h2database:h2:1.4.199"
 		testCompile "org.grails:grails-plugin-testing"
 		testCompile "org.grails.plugins:geb"
 		testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
@@ -250,7 +251,7 @@ configure(subprojects.findAll { it.name == "common" }) {
 }
 
 //Configure Boot Subprojects
-configure(subprojects.findAll {it.name =~ ".*boot" }) {
+configure(subprojects.findAll { it.name =~ ".*boot" }) {
 
 	buildscript {
 		repositories {
