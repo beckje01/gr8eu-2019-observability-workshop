@@ -6,7 +6,7 @@ services:
     container_name: zipkin
     environment:
       - STORAGE_TYPE=elasticsearch
-      - ES_HOSTS=elasticsearch
+      - ES_HOSTS=elasticsearch-obs
       # #Cassandra
       # - STORAGE_TYPE=cassandra3
       # # When using the test docker image, or have schema pre-installed, you don't need to re-install it
@@ -27,7 +27,7 @@ services:
       # - STORAGE_TYPE=cassandra3
       # - CASSANDRA_CONTACT_POINTS=cassandra
       - STORAGE_TYPE=elasticsearch
-      - ES_HOSTS=elasticsearch
+      - ES_HOSTS=elasticsearch-obs
     depends_on:
       - elasticsearch
 
@@ -64,6 +64,7 @@ services:
     command: /create.sh
 
   elasticsearch:
+    container_name: elasticsearch-obs
     build:
       context: elasticsearch/
       args:
