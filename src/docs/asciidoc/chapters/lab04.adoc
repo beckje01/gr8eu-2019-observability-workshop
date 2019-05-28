@@ -3,6 +3,7 @@
 === Lab 04 -- Tasks
 
 . Odd Behaviors
+. Missing Logs
 
 === Lab 04 -- Error Stories
 

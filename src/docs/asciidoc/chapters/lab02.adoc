@@ -27,6 +27,40 @@ Distributed tracing systems collect end-to-end latency graphs
 * **Instrumentation** - Use of a tracer to record tasks.
 * **Sample %** - How often to record a trace.
 
+== Diagram
+
+[plantuml%interactive, plant-images/zipkinOver, svg, height=400, width=400]
+----
+@startuml
+	database e as "Elasticsearch" #lightblue
+	rectangle z as "Zipkin" #lightblue
+
+	rectangle edge as "Edge" {
+		rectangle tracerEdge as "Brave\n(Tracer)"
+		rectangle app as "App Logic"
+	}
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+	app -up-> tracerEdge
+
+	actor dev as "Developer" #lightgreen
+
+
+	dev -right-> z: Search Traces
+
+	z -right-> e
+
+	tracerEdge -up-> z : Sampled Traces
+	hub -up-> z
+	user -up-> z
+	report -up-> z
+
+@enduml
+----
+
+
 == Lab 02 - Tasks
 
 . Zipkin Support For Services

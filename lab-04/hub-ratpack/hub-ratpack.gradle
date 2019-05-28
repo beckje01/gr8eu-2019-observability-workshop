@@ -1,5 +1,6 @@
 dependencies {
-	runtime "net.logstash.logback:logstash-logback-encoder:5.3"
+	//This missing will cause no visible errors but logs won't flow into logstash
+	//	runtime "net.logstash.logback:logstash-logback-encoder:5.3"
 	implementation 'io.zipkin.brave.ratpack:brave-ratpack:2.4.2'
 	implementation 'io.zipkin.brave:brave-instrumentation-p6spy:5.1.5'
 }

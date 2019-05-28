@@ -1,6 +1,43 @@
 == Lab 03 -- Metrics
 
-=== Lab 03 - Tasks
+=== Tools
+
+* Prometheus - Monitoring and Alerting Tool
+* Grafana - Visualization Tool
+* Micrometer - Library to collect / report metrics in an app
+* Dropwizard Metrics - Library to collect / report metrics in app
+
+=== Diagram
+
+[plantuml%interactive, plant-images/metricsOver, svg, height=400, width=400]
+----
+@startuml
+	database p as "Prometheus" #lightblue
+	rectangle g as "Grafana" #lightblue
+
+	rectangle edge as "Edge"
+  rectangle hub as "Hub"
+	rectangle user as "User"
+	rectangle report as "Report"
+
+
+	actor dev as "Developer" #lightgreen
+
+	g -down-> p
+
+	dev -right-> g: Graph Metrics
+	dev -right-> p: Search Metrics
+
+
+	p -down-> edge
+	p -down-> hub: Scrape Metrics
+	p -down-> user
+	p -down-> report
+
+@enduml
+----
+
+== Lab 03 - Tasks
 
 . Expose Metrics for Prometheus
 . Scrape All the Metrics
