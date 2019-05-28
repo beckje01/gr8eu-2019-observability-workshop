@@ -1,7 +1,7 @@
 ---
 micronaut:
     application:
-        name: micronaut
+        name: report
 
 #Uncomment to set server port
     server:

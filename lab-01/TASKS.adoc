@@ -15,7 +15,7 @@ edge-ratpack> gradle run
 Hint: Add the following to the `logback.xml` at the appropriate place.
 
 ```
-		<appender-ref ref="stash"/>
+<appender-ref ref="stash"/>
 ```
 
 Now relaunch the application, logs should start showing in Kibania.
